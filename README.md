@@ -30,9 +30,7 @@ the file 'bnpsheet.xyz') and creates a pore in the shape of an
 n-sided polygon at the centre of the sheet. It tries to ensure
 that parity is maintained betweenthe number of boron and 
 nitrogen atoms in the sheet. Finally, dangling bonds due to 
-the pore creation are identified and hydrogenised. The output
-is in the xyz format, in the file 'hbn_sheet.xyz'. The columns
-correspond to atom ID, atom type, x, y and z respectively.
+the pore creation are identified and hydrogenised. 
 
 <img src="bnnt_pore_demo.svg" width="300" height="188">
 
@@ -44,3 +42,6 @@ To run:
 ```
 ./a.out
 ```
+The output is in the xyz format, in the file 'hbn_sheet.xyz'. 
+The columns correspond to atom ID, atom type, x, y and z 
+respectively.
