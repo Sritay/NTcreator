@@ -2,6 +2,7 @@
 # Boron Nitride membrane creator
 This folder consists of utilites to generate components of a
 boron nitride membrane.
+<img src="bnnt_black_wet.png" width="800" height="600">
 
 ## BNNT creator
 The file "bnntcreator.cpp" consists of a C++ script which
