@@ -25,12 +25,16 @@ The nanotube is contained in the file named 'BNNT'.
 
 ## Hydrogenised pore creator
 The file "h_pore_creator.cpp" consists of a C++ script which
-takes an existing 2-D boron nitride sheet and creates a 
-pore in the shape of an n-sided polygon at the centre of the 
-sheet. It tries to ensure that parity is maintained between
-the number of boron and nitrogen atoms in the sheet. Finally,
-dangling bonds due to the pore creation are identified and 
-hydrogenised.
+takes an existing 2-D boron nitride sheet (here, provided as 
+the file 'bnpsheet.xyz') and creates a pore in the shape of an
+n-sided polygon at the centre of the sheet. It tries to ensure
+that parity is maintained betweenthe number of boron and 
+nitrogen atoms in the sheet. Finally, dangling bonds due to 
+the pore creation are identified and hydrogenised. The output
+is in the xyz format, in the file 'hbn_sheet.xyz'. The columns
+correspond to atom ID, atom type, x, y and z respectively.
+
+<img src="bnnt_pore_demo.svg" width="300" height="188">
 
 To compile: 
 ```
