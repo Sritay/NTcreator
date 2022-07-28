@@ -19,7 +19,9 @@ To run:
 ./a.out m n length
 ```
 Where 'm,n' is the nanotube chirality, and 'length' is the
-nanotube length.
+nanotube length. The output is in the xyz file format, with 
+the columns standing for atom type, x, y and z respectively.
+The nanotube is contained in the file named 'BNNT'.
 
 ## Hydrogenised pore creator
 The file "h_pore_creator.cpp" consists of a C++ script which
